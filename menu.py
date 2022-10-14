@@ -32,6 +32,7 @@ def main_bg():
     bg_img.draw(surface)
     surface.blit(beer, beer_rect)
     surface.blit(beer2, beer2_rect)
+    
 def start_the_game():
     time.sleep(0.0001)
     newGame = Game()
